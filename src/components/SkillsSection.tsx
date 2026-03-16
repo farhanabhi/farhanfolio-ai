@@ -1,32 +1,37 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Code, Brain, Globe, Database, Wrench } from "lucide-react";
+import { Code, Brain, Globe, Database, Wrench, Users, BarChart3, Cloud } from "lucide-react";
 
 const categories = [
   {
-    title: "Programming Languages",
-    icon: Code,
-    skills: ["Python", "Java", "C"],
-  },
-  {
-    title: "Data Science & ML",
+    title: "AI & Generative AI",
     icon: Brain,
-    skills: ["Pandas", "NumPy", "Scikit-learn", "Machine Learning", "Data Analysis", "Data Visualization"],
+    skills: ["Generative AI (GenAI)", "LLMs", "Prompt Engineering", "ML Integration", "NLP", "Neural Networks", "Scikit-learn", "Regression/Classification", "Random Forest"],
   },
   {
-    title: "Web Development",
-    icon: Globe,
-    skills: ["HTML", "CSS", "Bootstrap", "React"],
+    title: "Data Science & Analytics",
+    icon: BarChart3,
+    skills: ["Tableau", "Power BI", "Qlik Sense", "Matplotlib", "Seaborn", "Data Literacy", "Pandas", "Process Optimization", "Workflow Automation"],
+  },
+  {
+    title: "Software Engineering & Cloud",
+    icon: Cloud,
+    skills: ["Python", "Java", "C", "JavaScript (React.js)", "Express.js", "HTML/CSS/Bootstrap", "REST API", "Flask", "Django", "SaaS Architecture", "DevOps", "Docker", "Git", "AWS", "GCP", "Azure", "Cybersecurity Awareness"],
+  },
+  {
+    title: "Product & Methodologies",
+    icon: Wrench,
+    skills: ["Agile", "Scrum", "Digital Transformation", "Product Roadmap Strategy", "UX/UI Design Principles", "SEO & Digital Marketing"],
   },
   {
     title: "Databases",
     icon: Database,
-    skills: ["MySQL", "MongoDB"],
+    skills: ["MySQL", "MongoDB", "NoSQL", "PostgreSQL"],
   },
   {
-    title: "Tools",
-    icon: Wrench,
-    skills: ["Git", "Qlik Sense"],
+    title: "Leadership & Soft Skills",
+    icon: Users,
+    skills: ["Cross-Functional Collaboration", "Stakeholder Management", "Change Management", "Strategic Problem Solving", "Emotional Intelligence", "Adaptability", "Remote/Hybrid Collaboration", "Conflict Resolution", "Continuous Learning", "Mentorship & Coaching"],
   },
 ];
 

@@ -67,7 +67,7 @@ const AboutSection = () => {
               </div>
               <div>
                 <p className="font-medium text-sm mb-1">Focus Areas</p>
-                <p className="text-sm text-muted-foreground">ML · Data Science · AI Systems</p>
+                <p className="text-sm text-muted-foreground">ML · Data Science · AI Systems · Data Analysis</p>
               </div>
             </div>
           </motion.div>

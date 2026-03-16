@@ -42,7 +42,7 @@ const projects = [
   {
     title: "Cognitive Virtual Assistant for Learning",
     description: "Personalized learning assistant that adapts to individual learning styles and progress patterns.",
-    tech: ["Python", "NLP", "Deep Learning", "React"],
+    tech: ["Python", "NLP", "Deep Learning", "React", "LLM"],
     detail: "Developed an adaptive learning platform that uses cognitive computing to personalize educational content, track learning progress, and adjust difficulty levels based on individual student performance and learning patterns.",
   },
   {
