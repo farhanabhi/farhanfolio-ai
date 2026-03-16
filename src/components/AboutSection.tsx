@@ -58,7 +58,7 @@ const AboutSection = () => {
               </div>
               <div>
                 <p className="font-medium text-sm mb-1">Location</p>
-                <p className="text-sm text-muted-foreground">India</p>
+                <p className="text-sm text-muted-foreground">Sulthan Bathery, India</p>
               </div>
             </div>
             <div className="glass rounded-xl p-5 flex items-start gap-4">
@@ -67,7 +67,7 @@ const AboutSection = () => {
               </div>
               <div>
                 <p className="font-medium text-sm mb-1">Focus Areas</p>
-                <p className="text-sm text-muted-foreground">ML · Data Science · AI Systems</p>
+                <p className="text-sm text-muted-foreground">ML · Data Science · AI Systems · Data Analysis</p>
               </div>
             </div>
           </motion.div>

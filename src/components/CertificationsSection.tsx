@@ -3,11 +3,14 @@ import { useRef } from "react";
 import { Award } from "lucide-react";
 
 const certs = [
-  { title: "Cisco Data Analytics Essentials", issuer: "Cisco" },
-  { title: "IBM What is Data Science", issuer: "IBM" },
-  { title: "Python for Everybody", issuer: "University of Michigan" },
-  { title: "Advanced Data Structures & Algorithms in Python", issuer: "Online Certification" },
-  { title: "Data Scientist Professional Certificate", issuer: "Professional Certification" },
+  { title: "Data Scientist Professional Certificate", issuer: "KIMO.AI" },
+  { title: "Data Wrangling with Python", issuer: "KIMO.AI" },
+  { title: "Linear Algebra for Data Science", issuer: "KIMO.AI" },
+  { title: "Advanced Data Structures & Algorithms", issuer: "KIMO.AI" },
+  { title: "Data Analytics Essentials", issuer: "Cisco" },
+  { title: "What is Data Science?", issuer: "IBM" },
+  { title: "JavaScript Essentials", issuer: "Cisco" },
+  { title: "Soft Skills", issuer: "TCS iON" },
 ];
 
 const CertificationsSection = () => {

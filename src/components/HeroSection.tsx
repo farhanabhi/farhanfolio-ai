@@ -43,7 +43,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground mb-4 font-medium"
           >
-            Aspiring Data Scientist · AI & Machine Learning Engineer
+            Aspiring Data Scientist · AI & Machine Learning Engineer · Analyst
           </motion.p>
 
           <motion.p
@@ -76,10 +76,14 @@ const HeroSection = () => {
               <Mail size={16} />
               Contact Me
             </a>
-            <button className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border hover:bg-secondary transition-colors font-medium text-muted-foreground hover:text-foreground">
+            <a
+              href="/Farhan_M_Hameed_Resume.pdf"
+              download
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border hover:bg-secondary transition-colors font-medium text-muted-foreground hover:text-foreground"
+            >
               <FileText size={16} />
               Resume
-            </button>
+            </a>
           </motion.div>
         </div>
       </div>

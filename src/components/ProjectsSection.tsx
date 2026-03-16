@@ -6,7 +6,7 @@ const projects = [
   {
     title: "APT Detection using Graph Neural Networks",
     description: "Advanced Persistent Threat detection system leveraging graph neural networks to identify sophisticated cyber attacks in network traffic patterns.",
-    tech: ["Python", "GNN", "PyTorch", "NetworkX"],
+    tech: ["Python", "GNN", "PyTorch", "NetworkX", "TCGAT"],
     detail: "This project uses Graph Neural Networks to model network communications as graphs, enabling detection of subtle attack patterns that traditional methods miss. The system analyzes node relationships and temporal patterns to identify APT behaviors with high accuracy.",
   },
   {
@@ -42,7 +42,7 @@ const projects = [
   {
     title: "Cognitive Virtual Assistant for Learning",
     description: "Personalized learning assistant that adapts to individual learning styles and progress patterns.",
-    tech: ["Python", "NLP", "Deep Learning", "React"],
+    tech: ["Python", "NLP", "Deep Learning", "React", "LLM"],
     detail: "Developed an adaptive learning platform that uses cognitive computing to personalize educational content, track learning progress, and adjust difficulty levels based on individual student performance and learning patterns.",
   },
   {
