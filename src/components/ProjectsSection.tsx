@@ -8,48 +8,56 @@ const projects = [
     description: "Advanced Persistent Threat detection system leveraging graph neural networks to identify sophisticated cyber attacks in network traffic patterns.",
     tech: ["Python", "GNN", "PyTorch", "NetworkX", "TCGAT"],
     detail: "This project uses Graph Neural Networks to model network communications as graphs, enabling detection of subtle attack patterns that traditional methods miss. The system analyzes node relationships and temporal patterns to identify APT behaviors with high accuracy.",
+    github: "https://github.com/farhanabhi/apt-detection-gnn",
   },
   {
     title: "Credit Card Fraud Detection",
     description: "Machine learning system for real-time fraud detection in financial transactions with high accuracy and low false positive rates.",
     tech: ["Python", "Scikit-learn", "Pandas", "NumPy"],
     detail: "Built an ensemble model combining Random Forest, XGBoost, and neural networks to detect fraudulent transactions. Implemented SMOTE for handling class imbalance and achieved 99.2% accuracy on test data.",
+    github: "https://github.com/farhanabhi/credit-card-fraud-detection",
   },
   {
     title: "Healthcare Recommendation System",
     description: "AI-powered system providing personalized healthcare recommendations based on patient data and medical history.",
     tech: ["Python", "ML", "NLP", "Flask"],
     detail: "Developed a recommendation engine that analyzes patient symptoms, medical history, and demographic data to suggest appropriate healthcare providers, treatments, and preventive measures using collaborative and content-based filtering.",
+    github: "https://github.com/farhanabhi/healthcare-recommendation-system",
   },
   {
     title: "AI Career Guidance Chatbot",
     description: "Intelligent chatbot that provides personalized career guidance and skill recommendations for aspiring professionals.",
     tech: ["Python", "NLP", "TensorFlow", "React"],
     detail: "Created a conversational AI system that uses natural language processing to understand user queries about career paths, skill gaps, and industry trends, providing tailored guidance based on current market demands.",
+    github: "https://github.com/farhanabhi/ai-career-guidance-chatbot",
   },
   {
     title: "Stock Portfolio Management System",
     description: "Data-driven portfolio management tool with predictive analytics and risk assessment capabilities.",
     tech: ["Python", "Pandas", "Matplotlib", "ML"],
     detail: "Built a comprehensive portfolio management system featuring stock price prediction using LSTM networks, risk analysis using Monte Carlo simulations, and automated portfolio rebalancing based on modern portfolio theory.",
+    github: "https://github.com/farhanabhi/stock-portfolio-management",
   },
   {
     title: "Supply Chain Management System",
     description: "End-to-end supply chain optimization system using data analytics and predictive modeling.",
     tech: ["Python", "SQL", "Analytics", "ML"],
     detail: "Designed a system that optimizes inventory management, demand forecasting, and logistics routing using machine learning models, resulting in improved efficiency and reduced operational costs.",
+    github: "https://github.com/farhanabhi/supply-chain-management",
   },
   {
     title: "Cognitive Virtual Assistant for Learning",
     description: "Personalized learning assistant that adapts to individual learning styles and progress patterns.",
     tech: ["Python", "NLP", "Deep Learning", "React", "LLM"],
     detail: "Developed an adaptive learning platform that uses cognitive computing to personalize educational content, track learning progress, and adjust difficulty levels based on individual student performance and learning patterns.",
+    github: "https://github.com/farhanabhi/cognitive-virtual-assistant",
   },
   {
     title: "Real-time Air Quality Monitoring",
     description: "IoT-based system for monitoring and predicting air quality indices using sensor data and machine learning.",
     tech: ["Python", "IoT", "ML", "Dashboard"],
     detail: "Created a real-time monitoring system that collects data from IoT sensors, processes it using machine learning models to predict AQI trends, and presents insights through an interactive dashboard with alerts for hazardous conditions.",
+    github: "https://github.com/farhanabhi/air-quality-monitoring",
   },
 ];
 
@@ -131,7 +139,7 @@ const ProjectsSection = () => {
                 ))}
               </div>
               <div className="flex gap-3">
-                <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity">
+                <a href={projects[selected].github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:opacity-90 transition-opacity">
                   <Github size={16} /> GitHub
                 </a>
                 <a href="#" className="inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-border text-sm font-medium hover:bg-secondary transition-colors">
