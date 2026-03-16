@@ -43,7 +43,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground mb-4 font-medium"
           >
-            Aspiring Data Scientist · AI & Machine Learning Engineer
+            Aspiring Data Scientist · AI & Machine Learning Engineer · Analyst
           </motion.p>
 
           <motion.p
